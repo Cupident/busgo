@@ -1,0 +1,53 @@
+
+#log {
+	width: 400px;
+	height: 600px;
+	background: url("src/main/webapp/img/bgpos.png")  no-repeat;
+	background-size: 65%;
+	position: absolute;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+	margin-top: -550px;
+}
+
+#lop {
+	width: 400x;
+	height: 600px;
+	background: url(src/main/webapp/img/bgMap.png )
+		no-repeat;
+	position: absolute;
+	width: 1500px;
+	left: 50%;
+	margin-left: -650px;
+	top: 50%;
+	margin-top: -100px;
+}
+
+body {
+	background-image: url(src/main/webapp/img/htmlBG.jpg);
+}
+
+#tt {
+	left: 50%;
+	margin-left: 100px;
+	top: 50%;
+	margin-top: 120px;
+}
+
+input {
+	margin: 5px;
+	width: 150px;
+	height: 20px;
+}
+
+p:nth-of-type(2) {
+	background: blue;
+}
+
+#de {
+	width: 173px;
+	height: 25px;
+}
+

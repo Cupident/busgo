@@ -1,0 +1,171 @@
+<style type="text/css">
+		* {
+			font-family: Helvetica Neue, Helvetica, PingFang SC, \5FAE\8F6F\96C5\9ED1, Tahoma, Arial, sans-serif
+		}
+		
+		html {
+			height: 100%;
+		}
+		
+		body {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			margin: 0px;
+			overflow: auto;
+			padding: 0px;
+			color: #000000;
+			font-size: 12px;
+			font-family: Helvetica Neue, Helvetica, PingFang SC, \5FAE\8F6F\96C5\9ED1, Tahoma, Arial, sans-serif
+		}
+		
+		div {
+			padding: 0;
+			margin: 0;
+		}
+		
+		img {
+			border: none;
+			outline: none;
+		}
+			
+		.logoImg {
+			display: block;
+			margin: 60px auto 30px auto;
+		}
+		
+		.textBox {
+			margin: 0 auto 20px auto;
+			text-align: center;
+		}
+		
+		.text {
+			font-size: 22px;
+			font-family: "微软雅黑";
+			color: #333333;
+			margin: 0 auto;
+			text-align: auto;
+			
+		}		
+		.iconImg {
+			margin: 12px;
+		}
+		
+	
+		
+		.submitBox .userSub:active {
+			background-color: #0052cd;
+		}
+		
+		.userSub {
+			border: 0;
+		}
+		/**/
+		
+		.navBox {
+			height: 82px;
+			width: 100%;
+			min-width: 830px;
+			background: #0064B0;
+			position: relative;
+		}
+		
+		.navBox div {
+			float: left;
+			height: 82px;
+			text-align: center;
+		}
+		
+		.nav1Box img {
+			padding: 28px 60px;
+			border-right: 1px solid #2A579A;
+		}
+		
+		.nav2Box {
+			width: 82px;
+			border-right: 1px solid #2A579A;
+		}
+		
+		.nav2Box:hover {
+			background: #006bbd;
+		}
+		
+		.nav2Box img {
+			padding-top: 12px;
+		}
+		
+		.nav4Box {
+			min-width: 160px;
+			font-size: 12px;
+			color: white;
+			position: absolute;
+			right: 0;
+			padding-right: 10px;
+		}
+		
+		.nav4Box div {
+			float: right;
+		}
+		
+		.rightBox {
+			margin-left: 10px;
+			cursor: pointer;
+			position: relative;
+			z-index: 10;
+		}
+		
+		.rightBox2 {
+			margin-left: 20px;
+			cursor: pointer;
+			margin-top: 10px;
+			position: relative;
+			z-index: 10;
+		}
+		
+		.rightBox3 {
+			right: 0;
+			padding-right: 10px;
+			height: 22px;
+			padding-top: 6px;
+			position: absolute;
+		}
+		
+		.num {
+			width: 20px;
+			height: 20px;
+			background: url(../imgs/numBG.png) center no-repeat;
+			background-color: red;
+			border-radius: 50%;
+			line-height: 20px;
+			font-size: 12px;
+			display: block;
+			text-align: center;
+			position: absolute;
+			top: 22px;
+			right: -8px;
+		}
+		
+		.nav4Box img {
+			margin-top: 30px;
+		}
+		
+		.nav4Box p {
+			margin-top: 0px;
+		}
+		
+		.nav5Box {
+			margin: 10px 3px -6px 5px;
+		}
+		
+		.navBox .perBox {
+			width: 100px;
+			height: 180px;
+			background: white;
+			position: absolute;
+			right: 30px;
+			top: 70px;
+			box-shadow: 0px 2px 6px #dfdfdf;
+		}
+
+		
+		

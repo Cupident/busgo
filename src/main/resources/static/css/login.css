@@ -1,0 +1,78 @@
+<style type="text/css">
+#log {
+	width: 400px;
+	height: 600px;
+	background: url(/img/bgpos.png )
+		no-repeat;
+	background-size: 65%;
+	position: absolute;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+	margin-top: -550px;
+}
+
+#lop {
+	width: 400x;
+	height: 600px;
+	background: url(/img/bgMap.png )
+		no-repeat;
+	position: absolute;
+	width: 1500px;
+	left: 50%;
+	margin-left: -650px;
+	top: 50%;
+	margin-top: -100px;
+}
+
+body {
+	background-image: url(/img/htmlBG.jpg );
+}
+
+#lol {
+	left: 50%;
+	margin-left: 100px;
+	top: 50%;
+	margin-top: 80px;
+}
+
+input {
+	margin: 5px;
+	width: 150px;
+	height: 20px;
+}
+
+#de {
+	width: 100px;
+	height: 25px;
+	position: absolute;
+	left: 50%;
+	margin-left: -160px;
+	top: 50%;
+	margin-top: 30px;
+}
+
+#input {
+	width: 80px;
+}
+
+#code {
+	width: 80px;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: bold;
+	border: 0;
+	letter-spacing: 2px;
+	color: blue;
+}
+
+#login {
+	height: 22px;
+	position: absolute;
+	left: 50%;
+	margin-left: -180px;
+	top: 50%;
+	margin-top: 30px;
+}
+</style>

@@ -1,0 +1,78 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录界面</title>
+<link rel="stylesheet" type="text/css"
+	href="/js/jquery-easyui-1.4.1/themes/default/easyui.css" />
+<link rel="stylesheet" type="text/css"
+	href="/js/jquery-easyui-1.4.1/themes/icon.css" />
+<script type="text/javascript"
+	src="/js/jquery-easyui-1.4.1/jquery.min.js"></script>
+<script type="text/javascript"
+	src="/js/jquery-easyui-1.4.1/jquery.easyui.min.js"></script>
+<script type="text/javascript"
+	src="/js/jquery-easyui-1.4.1/locale/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
+
+<script type="text/javascript" src="js/login.js" charset="GBK"></script>
+<script type="text/javascript"
+	src="../../../../Maven_parent/ssm_test/src/main/webapp/WEB-INF/lib/jquery-1.12.4.js"></script>
+</head>
+
+<link rel="stylesheet" href="css/login.css" />
+<style type="text/css">
+	#log {
+	width: 400px;
+	height: 600px;
+	background: url(/img/bgpos.png )
+		no-repeat;
+	background-size: 65%;
+	position: absolute;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+	margin-top: -550px;
+}
+#nowDiv{
+ color:white;
+ position: absolute;
+	right: 250px;
+	
+	top: 50px;
+	
+}
+</style>
+<body >
+<div id="nowDiv"></div>
+	<div id="lop">
+		<div id="log">
+			<div id="lol">
+				<form>
+					<div>
+						<img src="img/logo.png" />
+					</div>
+					<br /> <br />
+					<div>
+						<img src="img/usernumber.png" width="18" height="18"></img> <span></span>
+						<input type="text" id="userName" name="userName" placeholder="输入用户名" />
+					</div>
+					<br />
+					<div>
+						<img src="img/password.png" width="18" height="18" /> <span></span>
+						<input type="password" id="password" name="password" placeholder="输入密码" />
+					</div>
+					<br />
+					<div>
+						<input type="text" id="input" placeholder="输入验证码" /> <input
+							type="button" id="code" onclick="createCode()" /> <br/> <input
+							id="login" type="button" value="登录" onclick="loginindex()" />
+					</div>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+body{
+	background-color:#e6e6e6;
+}
+#bigdiv{
+	position:relative;
+}
+#queHead,#queSub,#listBox{
+	background-color: white;
+	border-radius: 5px;
+}
+
+div img{
+	cursor: pointer;
+}
+table tr{
+	cursor: pointer;
+}
+input{
+	cursor: pointer;
+}
+#a{
+	display:inline-block;
+	position:absolute;
+	left: 35%;
+	top:2%;
+	
+}
+#b{
+	display:inline-block;
+	position:absolute;
+	left: 42%;
+	top:2%;
+}
+#red {
+	color: red;
+	font-size: 40px;
+}
+
+#bule {
+	color: blue;
+	font-size: 40px;
+}
+
+#page input {
+	border-radius: 15px; /*…Ë÷√‘≤Ω«*/
+	background-color: white;
+	border: 1px solid blue;
+}
+
+#page span {
+	background-color:#009DE7; 
+	 width: 20px;
+    height: 20px;
+    -webkit-border-radius: 100px;
+}
+
+#ques{
+	position:absolute;
+	right:50%;
+	margin-right:-30px;
+	top: 30px;
+	
+}
+#queHead{
+	
+	position:absolute;
+	right:2%;
+	top: 30px;
+}
+#ask{
+	position:absolute;
+	right: 20px;
+	top: 20px;
+	color:gray;
+	font-size: 12px;
+}
+#queHead h4{
+	text-align: center;
+}
+#user{
+	text-align: center;
+	font-size: 8px;
+	color:gray;
+}
+#text{
+	font-size: 10px;
+	font-family:'Œ¢»Ì≤ª—≈∫⁄','Œ¢»Ì—≈∫⁄','∫⁄ÃÂ',sans-serif;
+}
+
+#queSub{
+	position:absolute;
+	right:2%;
+	top:200px;
+	border-radius: 5px;
+}
+#boxHead{
+	height: 50px;
+}
+#boxHead span{
+	position:absolute;
+	font-size: 12px;
+	right: 20px;
+	top: 10px;
+	color:gray;
+}
+#textarea{
+	position:absolute;
+	left:1%;
+	background-color: #e6e6e6;
+    width: 98%;
+    height: 120px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding: 3%;
+}
+#butt{
+	position:absolute;
+	top: 65%;
+	left: 20%;
+}
+

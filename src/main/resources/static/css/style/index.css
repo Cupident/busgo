@@ -1,0 +1,91 @@
+
+
+#look{
+
+  position: absolute;
+  right:60px;
+  top:15px;
+}
+
+ta span{
+	color:red;
+}
+a{
+	
+	color:gray;
+}
+a:link {
+	text-decoration: none;
+	 }/*取消连接下划线*/
+a:hover{
+	 color:black;
+	 }
+a:active{
+	color:block;
+}	 
+h3{
+     position: absolute;
+     left:20px;
+}
+tr{
+	height:15px;
+}
+
+
+
+#qu td{
+  width:150px;
+
+  text-align:center;
+}
+
+#qu{
+   position: absolute;
+     left:30%;
+     margin-left:-100px;
+     top:30px;
+}
+
+#qu tr:first{
+	height:20px;
+	font-size:30px;
+	
+}
+
+
+#qu input{
+
+ background-color:white;
+ width:60px;
+ height:30px;
+ border-radius:25px;
+  cursor: pointer;  /* 鼠标移到点击位置变成手指图标 */
+}
+
+
+#shiwuTable{
+	 position: absolute;
+     left:50%;
+     top:30px;
+}
+
+#ta{
+	 position: absolute;
+     left:60%;
+     margin-left:-360px;
+     top:60px;
+     font-size:12px;
+}
+
+#ta td{
+	width:430px;
+	text-align:left;
+}
+
+#ta tr{
+	height:15px;
+}
+#ta span{
+	color:red;
+}
+
